@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: demo
+
+example:
+  my-property:
+    authentication:
+      L2:
+        type: LastLevel
+        properties:
+          client-id: client1
+          client-secret: secret
